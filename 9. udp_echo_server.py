@@ -5,11 +5,11 @@ PORT = 8080
 MAX_MSG_SIZE = 1024
 
 # create a socket object
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-server_socket.bind((HOST, PORT))
+srv_sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+srv_sock.bind((HOST, PORT))
 
 while True:
-    data, client_address = server_socket.recvfrom(MAX_MSG_SIZE)
+    data, client_address = srv_sock.recvfrom(MAX_MSG_SIZE)
     if not data:
         print("Client disconnected")
         break
@@ -18,11 +18,11 @@ while True:
     print("Received:", data, end='')
     if data[-1] != '\n': print()
 
-    server_socket.sendto(data.encode('utf-8'), client_address)
+    srv_sock.sendto(data.encode('utf-8'), client_address)
     print("Echoed back:", data, end='')
     if data[-1] != '\n': print()
 
-server_socket.close()
+srv_sock.close()
 
 ''' OUTPUT:
 # server output
