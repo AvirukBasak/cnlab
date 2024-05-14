@@ -49,27 +49,27 @@ Frame 2: SENT
 Frame 3: SENT
 Frame 4: SENT
 Frame 5: SENT
-Frame 1: 
+Frame 1:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
 Frame 1: ACK
-Frame 2: 
+Frame 2:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
 Frame 2: ACK
-Frame 3: 
+Frame 3:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
 Frame 3: ACK
-Frame 4: 
+Frame 4:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
 Frame 4: ACK
-Frame 5: 
+Frame 5:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
@@ -79,27 +79,27 @@ Frame 7: SENT
 Frame 8: SENT
 Frame 9: SENT
 Frame 10: SENT
-Frame 6: 
+Frame 6:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
 Frame 6: ACK
-Frame 7: 
+Frame 7:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
 Frame 7: ACK
-Frame 8: 
+Frame 8:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 2
 Frame 8: TIMEOUT
-Frame 9: 
+Frame 9:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 2
 Frame 9: TIMEOUT
-Frame 10: 
+Frame 10:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 1
@@ -108,22 +108,22 @@ Frame 8: SENT
 Frame 9: SENT
 Frame 11: SENT
 Frame 12: SENT
-Frame 8: 
+Frame 8:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 2
 Frame 8: TIMEOUT
-Frame 9: 
+Frame 9:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 2
 Frame 9: TIMEOUT
-Frame 11: 
+Frame 11:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 2
 Frame 11: TIMEOUT
-Frame 12: 
+Frame 12:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: 2
@@ -132,7 +132,7 @@ Frame 8: SENT
 Frame 9: SENT
 Frame 11: SENT
 Frame 12: SENT
-Frame 8: 
+Frame 8:
 Enter 1 to send ACK
       2 to trigger TIMEOUT
 Choice: ^C
